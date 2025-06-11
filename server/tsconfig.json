@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Compile to modern JavaScript
+    "module": "commonjs", // Use the standard Node.js module system
+    "outDir": "./dist", // Where to put the compiled .js files
+    "rootDir": "./src", // Where our source .ts files are
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Allows better compatibility between CommonJS and ES Modules
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
